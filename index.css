@@ -43,12 +43,13 @@ a {
   font-size: 300%;
   font-weight: bolder;
   text-align: center;
-  margin: 32px 0 10px 0;
+  margin: 32px 0 15px 0;
 }
 
 .subtitle {
   font-family: BelledeMai-Heavy;
   font-size: 250%;
+  margin-top: 50px;
   margin-bottom: 5px;
   width: fit-content;
 }
@@ -83,10 +84,13 @@ a {
 @font-face {
   font-family: BelledeMai-Heavy;
   src: url(./fonts/BelledeMai-Heavy.otf);
+}
+@font-face {
   font-family: Atkinson Hyperlegible;
   src: url(./fonts/AtkinsonHyperlegible-Regular.ttf);
 }
-/* Bio */
+
+  /* Bio */
 
 .bio_background {
   background-color: rgb(209, 209, 209);
@@ -166,6 +170,7 @@ body.admin-bar .menu-location.menu-location-top {
 summary {
   writing-mode: vertical-lr;
   text-align: center;
+  font-family:'Atkinson Hyperlegible' ;
   padding: 12px 10px;
   width: 23px;
   height: 17px;
@@ -189,6 +194,7 @@ summary::before {
 }
 summary::after {
   content: "III";
+  font-family: Arial, Helvetica, sans-serif;
   letter-spacing: -1px;
 }
 summary:hover {
@@ -204,7 +210,7 @@ details[open] .drop {
   animation-name: dropAnim;
 }
 details[open] summary::before {
-  content: "X";
+  content: "◉";
 }
 details[open] summary::after {
   content: "";
@@ -317,3 +323,4 @@ details[open]::before {
   background: #00F0B5;
   width: 100%;
 }
+
