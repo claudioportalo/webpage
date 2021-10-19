@@ -193,8 +193,8 @@ summary::before {
   content: "";
 }
 summary::after {
-  content: "III";
   font-family: Arial, Helvetica, sans-serif;
+  content: "III";
   letter-spacing: -1px;
 }
 summary:hover {
@@ -210,7 +210,7 @@ details[open] .drop {
   animation-name: dropAnim;
 }
 details[open] summary::before {
-  content: "◉";
+  content: "X";
 }
 details[open] summary::after {
   content: "";
