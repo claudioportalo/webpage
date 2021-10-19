@@ -1,5 +1,5 @@
 body {
-  font-family: pilat extended, sans-serif;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 
 a {
@@ -28,7 +28,8 @@ a {
 
 .socials a {
   color:black;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  margin: 0 10px 0 0;
 }
 
 .video {
@@ -82,6 +83,8 @@ a {
 @font-face {
   font-family: BelledeMai-Heavy;
   src: url(./fonts/BelledeMai-Heavy.otf);
+  font-family: Atkinson Hyperlegible;
+  src: url(./fonts/AtkinsonHyperlegible-Regular.ttf);
 }
 /* Bio */
 
@@ -97,7 +100,7 @@ a {
 }
 
 .bio_text {
-  margin: 50px;
+  margin: 30px;
   text-align: justify;
 }
 
@@ -129,7 +132,7 @@ a {
 .image {
   margin-bottom: 10px;
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;
   min-width: 100%;
   
 }
