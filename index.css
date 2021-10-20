@@ -141,12 +141,11 @@ a {
   
 }
 
-
 /* Drop */
 
 :root {
   --primColor: #ebebeb96;
-  --secoColor: #555555;
+  --secoColor: #2c2c2c;
   --cornerRad: 4px;
 }
 
@@ -154,18 +153,6 @@ a {
   position: fixed; z-index: 10;
   top: 20px;
 }
-
-/* .menu-location {
-  position: fixed; z-index:10;
-}
-
-.menu-location.menu-location-top {
-  top: 20px;
-}
-
-body.admin-bar .menu-location.menu-location-top {
-  top: 50px;
-} */
 
 summary {
   writing-mode: vertical-lr;
